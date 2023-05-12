@@ -16,7 +16,7 @@ func TestCreateChannelAsParameter(t *testing.T) {
 	data := <-channel
 	fmt.Println(data)
 
-	time.Sleep(5 * time.Second)
+	time.Sleep(1 * time.Second)
 }
 
 func GiveMeResponse(channel chan string) {
